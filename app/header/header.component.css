@@ -1,0 +1,16 @@
+.app-announcement {
+    margin-right:40px;
+}
+.app-toolbar-filler {
+  flex: 1 1 auto;
+}
+.app-buttonSearch {
+    margin-right:40px;
+}
+.app-close {
+    margin-right:40px;
+}
+.md-toolbar{
+background-color: #c4474a;
+}
+

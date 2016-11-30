@@ -1,0 +1,45 @@
+
+
+body {
+    margin:0;
+}
+md-toolbar.md-primary {
+  background: #2b2b2b;
+}
+.md-toolbar-layout label.md-input-placeholder {
+    color:#e7e0f3
+}
+.md-toolbar-layout .md-input-underline {
+  border-color:#e7e0f3
+}
+.md-toolbar-layout .md-focused {
+  border-color:#e7e0f3
+}
+.md-toolbar-layout .md-input-underline .md-input-ripple {
+  background:#e7e0f3
+}
+[hidden] {
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
