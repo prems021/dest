@@ -7,7 +7,7 @@ import { FormGroup, FormControl, Validators, FormBuilder }  from '@angular/forms
 @Component({
     moduleId: module.id,
     selector: 'login',
-    templateUrl: 'login.component.html',
+    templateUrl: '../app/components/login.component.html',
     styleUrls: [ 'login.component.css' ]
 })
 
