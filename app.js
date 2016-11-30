@@ -1,3 +1,16 @@
+Skip to content
+Personal Open source Business Explore
+Sign upSign inPricingBlogSupport
+This repository
+Search
+ Watch 4  Star 23  Fork 19 vladotesanovic/angular2-express-slim
+ Code  Issues 0  Pull requests 0  Projects 0  Pulse  Graphs
+Branch: master Find file Copy pathangular2-express-slim/app.js
+7af0060  23 days ago
+@vladotesanovic vladotesanovic Update to Angular 2.0 and make Heroku ready
+2 contributors @vladotesanovic @jrgleason
+RawBlameHistory     
+Executable File  69 lines (54 sloc)  1.45 KB
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
@@ -5,7 +18,7 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const compression = require('compression');
 
-
+var users = require('./routes/users');
 var app = express();
 
 const options = {
@@ -31,7 +44,7 @@ app.use(express.static(path.join(__dirname, 'app')));
 
 // Routes registration
 // ---
-
+app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -66,3 +79,5 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
