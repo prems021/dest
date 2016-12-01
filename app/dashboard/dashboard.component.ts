@@ -9,8 +9,8 @@ import { Observable }        from 'rxjs/Observable';
 @Component({
   moduleId: module.id,
   selector: 'dashboard',
-  templateUrl: 'dashboard.component.html',
-  styleUrls: [ 'dashboard.component.css' ]
+  templateUrl: 'dashboard/dashboard.component.html',
+  styleUrls: [ 'dashboard/dashboard.component.css' ]
 })
 export class DashboardComponent implements OnInit {
   parsedata : Object[]= [new Parse(0,'','',true,new Date() ,'','','','','',0,'',0)];
