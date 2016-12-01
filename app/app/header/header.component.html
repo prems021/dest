@@ -1,0 +1,21 @@
+<md-toolbar >
+  <h3>
+    <md-icon>local_taxi</md-icon> Destiny</h3>
+  <span class="app-toolbar-filler"></span>
+
+  <span class="app-toolbar-filler"></span>
+  <button md-icon-button class="app-announcement">
+    <md-icon class="md-24">announcement</md-icon>
+    <span class="app-notification">{{notificaciones}}</span>
+  </button>
+  <md-input placeholder="what are you searching?" class="app-inputSearch">
+  </md-input>
+  <button md-icon-button class="app-buttonSearch">
+    <md-icon class="md-24">search</md-icon>
+  </button>
+  <button md-icon-button class="app-close"  (click)="logout()" md-tooltip="Logout sesion">
+    <md-icon class="md-24">input</md-icon>
+  </button>
+
+
+</md-toolbar>
