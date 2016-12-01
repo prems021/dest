@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
 @Component({
     moduleId: module.id,
   selector: 'drive-requests',
-  templateUrl: 'drive_requests.component.html',
-  styleUrls: ['usertable.component.css']
+  templateUrl: 'dashboard/drive_requests.component.html',
+  styleUrls: ['dashboard/usertable.component.css']
 })
 export class DriverequestComponent implements OnInit {
  // parsedata : Object[]= [new Parse(0,'','',true,new Date() ,'','','','','',0,'',0)];
