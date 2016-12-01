@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
 @Component({
     moduleId: module.id,
   selector: 'user-table',
-  templateUrl: 'usertable.component.html',
-  styleUrls: ['usertable.component.css']
+  templateUrl: 'dashboard/usertable.component.html',
+  styleUrls: ['dashboard/usertable.component.css']
 })
 export class UsertableComponent implements OnInit {
   parsedata : Object[]= [new Parse(0,'','',true,new Date() ,'','','','','',0,'',0)];
